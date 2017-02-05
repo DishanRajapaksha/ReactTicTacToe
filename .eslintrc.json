@@ -1,6 +1,20 @@
 {
     "extends": "airbnb-base",
     "plugins": [
-        "import"
-    ]
+        "import",
+        "react"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true,
+            "modules": true
+        }
+    },
+    "rules": {
+        "no-undef": "warn",
+        "no-unused-vars": "warn",
+        "no-plusplus": "warn",
+        "class-methods-use-this": "off",
+        "indent": "warn"
+    }
 }
